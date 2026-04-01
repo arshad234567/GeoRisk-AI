@@ -1,4 +1,4 @@
-from agent.agent import run_agent
+from backend.agent.agent import run_agent
 import json
 
 if __name__ == "__main__":

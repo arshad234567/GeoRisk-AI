@@ -1,10 +1,9 @@
 import json
-from agent.prompt import SYSTEM_PROMPT
-from agent.llm import call_llm
-from agent.parser import parse_tool_call
-from agent.config import MAX_STEPS
-from tools.registry import TOOLS
-
+from backend.agent.prompt import SYSTEM_PROMPT
+from backend.agent.llm import call_llm
+from backend.agent.parser import parse_tool_call
+from backend.agent.config import MAX_STEPS
+from backend.tools.registry import TOOLS
 
 def run_agent(user_input: str):
     messages = [
