@@ -1,3 +1,3 @@
 MAX_STEPS = 3
-MODEL_NAME = "llama3-70b-8192"
+MODEL_NAME = "llama-3.3-70b-versatile"
 TEMPERATURE = 0.3
