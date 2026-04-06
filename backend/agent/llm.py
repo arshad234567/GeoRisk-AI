@@ -1,8 +1,7 @@
 from groq import Groq
 import os
 from dotenv import load_dotenv
-from agent.config import MODEL_NAME, TEMPERATURE
-
+from backend.agent.config import MODEL_NAME, TEMPERATURE
 load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
