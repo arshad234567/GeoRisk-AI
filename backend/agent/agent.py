@@ -14,7 +14,6 @@ def run_agent(user_input: str):
     for step in range(MAX_STEPS):
         response = call_llm(messages)
 
-        # Try final JSON output
         try:
             return json.loads(response)
         except:
